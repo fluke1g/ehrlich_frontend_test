@@ -187,6 +187,8 @@ header {
 /* VIP EXCLUSIVES CSS
 -------------------------------------------------- */
 .trending {
+  padding: 3rem 0;
+  
   img {
     margin-bottom: 1rem;
   }
@@ -210,6 +212,38 @@ header {
       border-radius: 50px;
       line-height: 1;
     }
+  }
+}
+
+/* NEW ARRIVALS CSS
+-------------------------------------------------- */
+.new-arrivals {
+  background-image: url(../img/new-arrivals-bg.jpg);
+  background-size: cover;
+  background-position: center right;
+  color: #fff;
+
+  h2 {
+    text-align: left;
+    font-size: 82px;
+    line-height: 1;
+    margin: 0;
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 1;
+    margin: 1.5rem 0;
+  }
+
+  .shop-now-btn {
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
   }
 }
 
