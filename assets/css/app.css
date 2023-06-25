@@ -12094,7 +12094,7 @@ header .benefits-section {
   width: -moz-fit-content;
   width: fit-content;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   margin: 2rem auto 0;
   padding: 10px 25px;
@@ -12121,7 +12121,7 @@ header .benefits-section {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
 }
 .site-deals .col .deal .bigger {
@@ -12135,7 +12135,7 @@ header .benefits-section {
   display: block;
   text-align: center;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -12162,7 +12162,7 @@ header .benefits-section {
   background-color: #fff;
   color: #000;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -12179,6 +12179,7 @@ header .benefits-section {
 }
 .trending h4, .trending .h4 {
   font-size: 24px;
+  font-weight: 500;
   text-align: center;
 }
 .trending .hashtag-container {
@@ -12191,6 +12192,7 @@ header .benefits-section {
   border: 1px solid #000;
   display: inline-block;
   font-size: 14px;
+  font-weight: 500;
   margin: 0 15px;
   padding: 10px 20px;
   border-radius: 50px;
@@ -12242,7 +12244,7 @@ header .benefits-section {
 }
 .recently-bought .price {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .recently-bought .price .sale {
   color: #C1272D;
@@ -12309,7 +12311,7 @@ footer {
 }
 footer .footer-heading {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
 }
 footer ul {
