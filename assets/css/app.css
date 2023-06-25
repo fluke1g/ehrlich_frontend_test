@@ -12069,6 +12069,45 @@ header .benefits-section {
   padding: 0.75rem;
 }
 
+.hero .carousel-item .item1 {
+  background-color: #f7f5ed;
+  background-image: url(../img/bg-carousel-item.jpg);
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero .carousel-item .carousel-info {
+  text-align: center;
+}
+.hero .carousel-item .carousel-info img {
+  width: 80%;
+  margin: auto;
+}
+.hero .carousel-item .hero-girls {
+  position: relative;
+  right: -50px;
+}
+.hero .carousel-item .hero-shop-now {
+  background-color: #fff;
+  color: #000;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 2rem auto 0;
+  padding: 10px 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.hero .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+
 /* SITE DEALS CSS
 -------------------------------------------------- */
 .site-deals {

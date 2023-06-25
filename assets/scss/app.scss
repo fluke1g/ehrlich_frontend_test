@@ -116,6 +116,54 @@ header {
 
 }
 
+.hero {
+  
+  .carousel-item {
+    .item1 {
+      background-color: #f7f5ed;
+      background-image: url(../img/bg-carousel-item.jpg);
+      background-position: center right;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .carousel-info {
+      text-align: center;
+
+      img {
+        width: 80%;
+        margin: auto  ;
+      }
+    }
+
+    .hero-girls {
+      position: relative;
+      right: -50px;
+    }
+
+    .hero-shop-now {
+      background-color: #fff;
+      color: #000;
+      display: block;
+      width: fit-content;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1;
+      margin: 2rem auto 0;
+      padding: 10px 25px;
+      text-decoration: none;
+      box-shadow: 0 4px 4px 0 rgb(0,0,0,.25);
+    }
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 0 10px;
+  }
+}
+
 /* SITE DEALS CSS
 -------------------------------------------------- */
 .site-deals {
@@ -188,7 +236,7 @@ header {
 -------------------------------------------------- */
 .trending {
   padding: 3rem 0;
-  
+
   img {
     margin-bottom: 1rem;
   }
