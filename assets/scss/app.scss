@@ -184,6 +184,35 @@ header {
   }
 }
 
+/* VIP EXCLUSIVES CSS
+-------------------------------------------------- */
+.trending {
+  img {
+    margin-bottom: 1rem;
+  }
+  h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .hashtag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hashtag {
+      background-color: #fff;
+      border: 1px solid #000;
+      display: inline-block;
+      font-size: 14px;
+      margin: 0 15px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      line-height: 1;
+    }
+  }
+}
+
 /* RECENTLY BOUGHT CSS
 -------------------------------------------------- */
 .recently-bought {

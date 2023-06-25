@@ -12130,6 +12130,31 @@ header .benefits-section {
   padding: 15px 20px;
 }
 
+/* VIP EXCLUSIVES CSS
+-------------------------------------------------- */
+.trending img {
+  margin-bottom: 1rem;
+}
+.trending h4, .trending .h4 {
+  font-size: 24px;
+  text-align: center;
+}
+.trending .hashtag-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trending .hashtag-container .hashtag {
+  background-color: #fff;
+  border: 1px solid #000;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  line-height: 1;
+}
+
 /* RECENTLY BOUGHT CSS
 -------------------------------------------------- */
 .recently-bought {
