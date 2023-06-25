@@ -25,6 +25,13 @@ body {
   font-size: 12px;
 }
 
+h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
 /* HEADER CSS
 -------------------------------------------------- */
 
@@ -179,6 +186,39 @@ header {
     padding: 15px 20px;
   }
 }
+
+/* RECENTLY BOUGHT CSS
+-------------------------------------------------- */
+
+.recently-bought {
+  padding: 3rem 0;
+  
+  img {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .price {
+    font-size: 14px;
+    font-weight: 600;
+
+    .sale {
+      color: #C1272D;
+      margin-right: 1.5rem;
+    }
+
+    .org-price {
+      text-decoration: line-through;
+    }
+  }
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
