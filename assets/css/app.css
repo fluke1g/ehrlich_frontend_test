@@ -11991,7 +11991,7 @@ html {
 /* Padding below the footer and lighter body text */
 body {
   font-family: "Montserrat", sans-serif;
-  color: #5a5a5a;
+  color: #000;
   font-size: 12px;
 }
 
@@ -12060,6 +12060,37 @@ header nav .currencies-b .currencies-a li span {
 header .benefits-section {
   background-color: #F2F2F2;
   padding: 0.75rem;
+}
+
+/* SITE DEALS CSS
+-------------------------------------------------- */
+.site-deals {
+  padding: 3rem;
+}
+.site-deals .col {
+  text-align: center;
+}
+.site-deals .col .deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.site-deals .col .deal .bigger {
+  font-size: 32px;
+  margin-right: 10px;
+}
+.site-deals .check-btn {
+  background-color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /* RESPONSIVE CSS
