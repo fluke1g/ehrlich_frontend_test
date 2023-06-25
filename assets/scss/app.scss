@@ -34,7 +34,6 @@ h2 {
 
 /* HEADER CSS
 -------------------------------------------------- */
-
 header {
 
   nav {
@@ -119,7 +118,6 @@ header {
 
 /* SITE DEALS CSS
 -------------------------------------------------- */
-
 .site-deals {
   padding: 3rem;
 
@@ -155,7 +153,6 @@ header {
 
 /* VIP EXCLUSIVES CSS
 -------------------------------------------------- */
-
 .vip-exclusives {
   background-image: url(../img/vip-bg.jpg);
   background-position: left center;
@@ -189,7 +186,6 @@ header {
 
 /* RECENTLY BOUGHT CSS
 -------------------------------------------------- */
-
 .recently-bought {
   padding: 3rem 0;
   
@@ -221,7 +217,6 @@ header {
 
 /* INSTA CSS
 -------------------------------------------------- */
-
 .insta {
   background-color: #f2f2f2;
   padding: 3rem 0;
@@ -275,6 +270,52 @@ header {
   }
   
 }
+
+/* FOOTER CSS
+-------------------------------------------------- */
+footer {
+  padding: 3rem 0;
+
+  .footer-heading {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;  
+
+    li {
+      padding-bottom: 10px;
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+
+  }
+
+  .socials {
+    margin-bottom: 1rem;
+
+    svg {
+      margin-right: .5rem;
+    }
+  }
+
+  .payments {
+
+    img {
+      width: 40px;
+      height: auto;
+      margin-right: .5rem;
+    }
+  }
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
