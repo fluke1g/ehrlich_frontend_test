@@ -115,7 +115,7 @@ header {
 
 .site-deals {
   padding: 3rem;
-  
+
   .col {
     text-align: center;
     
@@ -143,6 +143,40 @@ header {
     color: #fff;
     font-weight: 600;
     font-size: 18px;
+  }
+}
+
+/* VIP EXCLUSIVES CSS
+-------------------------------------------------- */
+
+.vip-exclusives {
+  background-image: url(../img/vip-bg.jpg);
+  background-position: left center;
+  background-size: cover;
+  padding: 2rem;
+
+  h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #fff;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .shop-now-btn {
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
   }
 }
 /* RESPONSIVE CSS
