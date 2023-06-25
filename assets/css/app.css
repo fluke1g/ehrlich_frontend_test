@@ -12156,6 +12156,21 @@ header .benefits-section {
   text-decoration: line-through;
 }
 
+/* INSTA CSS
+-------------------------------------------------- */
+.insta {
+  background-color: #f2f2f2;
+  padding: 3rem 0;
+}
+.insta .view-posts {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 40em) {
