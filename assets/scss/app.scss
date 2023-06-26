@@ -32,6 +32,11 @@ h2 {
   text-transform: capitalize;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* HEADER CSS
 -------------------------------------------------- */
 header {
@@ -49,6 +54,20 @@ header {
       display: flex;
       align-items: center;
       position: relative;
+
+      &:hover {
+        font-weight: 500;
+      }
+
+      .nav-link {
+        &:hover {
+          font-weight: 500;
+        }
+      }
+
+      .active {
+        font-weight: 500;
+      }
     }
 
     #currencies {
@@ -155,6 +174,12 @@ header {
       padding: 10px 25px;
       text-decoration: none;
       box-shadow: 0 4px 4px 0 rgb(0,0,0,.25);
+      transition: background-color 0.5s ease;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
     }
   }
 
@@ -209,6 +234,7 @@ header {
 
   .check-btn {
     background-color: #000;
+    border: 1px solid #000;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
@@ -216,6 +242,12 @@ header {
     color: #fff;
     font-weight: 500;
     font-size: 18px;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
   }
 }
 
@@ -242,6 +274,7 @@ header {
 
   .shop-now-btn {
     background-color: #fff;
+    border: 1px solid #fff;
     color: #000;
     font-size: 18px;
     font-weight: 500;
@@ -249,6 +282,12 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 20px;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
   }
 }
 
@@ -257,13 +296,28 @@ header {
 .trending {
   padding: 3rem 0;
 
-  img {
-    margin-bottom: 1rem;
-  }
-  h4 {
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
+  .col {
+    
+      display: block;
+      margin: auto;
+
+      img {
+        margin-bottom: 1rem;
+      }
+      
+      h4 {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+      }
+
+      &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        border: 1px solid #cccccc;
+        background-color: white;
+      }
   }
 
   .hashtag-container {
@@ -281,6 +335,12 @@ header {
       padding: 10px 20px;
       border-radius: 50px;
       line-height: 1;
+      transition: background-color 0.5s ease;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
     }
   }
 }
@@ -314,6 +374,12 @@ header {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
   }
 }
 
@@ -321,29 +387,40 @@ header {
 -------------------------------------------------- */
 .recently-bought {
   padding: 3rem 0;
+
+  .col {
+
+    img {
+      margin-bottom: 1rem;
+    }
   
-  img {
-    margin-bottom: 1rem;
-  }
-
-  .title {
-    font-size: 14px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-
-  .price {
-    font-size: 14px;
-    font-weight: 500;
-
-    .sale {
-      color: #C1272D;
-      margin-right: 1.5rem;
+    .title {
+      font-size: 14px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  
+    .price {
+      font-size: 14px;
+      font-weight: 500;
+  
+      .sale {
+        color: #C1272D;
+        margin-right: 1.5rem;
+      }
+  
+      .org-price {
+        text-decoration: line-through;
+      }
     }
 
-    .org-price {
-      text-decoration: line-through;
+    &:hover {
+      transition: all 0.2s ease-out;
+      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
     }
   }
 }
@@ -354,13 +431,30 @@ header {
   background-color: #f2f2f2;
   padding: 3rem 0;
 
+  .col {
+    &:hover {
+      transition: all 0.2s ease-out;
+      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
+    }
+  }
+
   .view-posts {
     background-color: #000;
+    border: 1px solid #000;
     color: #fff;
     font-size: 18px;
     text-align: center;
     text-decoration: none;
     padding: 10px 20px;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
   }
 }
 

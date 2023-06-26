@@ -12002,6 +12002,11 @@ h2, .h2 {
   text-transform: capitalize;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* HEADER CSS
 -------------------------------------------------- */
 header nav {
@@ -12016,6 +12021,15 @@ header nav .nav-item {
   display: flex;
   align-items: center;
   position: relative;
+}
+header nav .nav-item:hover {
+  font-weight: 500;
+}
+header nav .nav-item .nav-link:hover {
+  font-weight: 500;
+}
+header nav .nav-item .active {
+  font-weight: 500;
 }
 header nav #currencies {
   padding: 10px;
@@ -12103,6 +12117,11 @@ header .benefits-section {
   padding: 10px 25px;
   text-decoration: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.5s ease;
+}
+.hero .carousel-item .hero-shop-now:hover {
+  background-color: #000;
+  color: #fff;
 }
 .hero .carousel-indicators [data-bs-target] {
   width: 15px;
@@ -12147,6 +12166,7 @@ header .benefits-section {
 }
 .site-deals .check-btn {
   background-color: #000;
+  border: 1px solid #000;
   text-decoration: none;
   padding: 10px 20px;
   display: block;
@@ -12154,6 +12174,11 @@ header .benefits-section {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
+  transition: background-color 0.5s ease;
+}
+.site-deals .check-btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /* VIP EXCLUSIVES CSS
@@ -12177,6 +12202,7 @@ header .benefits-section {
 }
 .vip-exclusives .shop-now-btn {
   background-color: #fff;
+  border: 1px solid #fff;
   color: #000;
   font-size: 18px;
   font-weight: 500;
@@ -12184,6 +12210,11 @@ header .benefits-section {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 20px;
+  transition: background-color 0.5s ease;
+}
+.vip-exclusives .shop-now-btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /* VIP EXCLUSIVES CSS
@@ -12191,13 +12222,24 @@ header .benefits-section {
 .trending {
   padding: 3rem 0;
 }
-.trending img {
+.trending .col {
+  display: block;
+  margin: auto;
+}
+.trending .col img {
   margin-bottom: 1rem;
 }
-.trending h4, .trending .h4 {
-  font-size: 24px;
+.trending .col h4, .trending .col .h4 {
+  font-size: 22px;
   font-weight: 500;
   text-align: center;
+}
+.trending .col:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
 }
 .trending .hashtag-container {
   display: flex;
@@ -12214,6 +12256,11 @@ header .benefits-section {
   padding: 10px 20px;
   border-radius: 50px;
   line-height: 1;
+  transition: background-color 0.5s ease;
+}
+.trending .hashtag-container .hashtag:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /* NEW ARRIVALS CSS
@@ -12243,6 +12290,11 @@ header .benefits-section {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+.new-arrivals .shop-now-btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /* RECENTLY BOUGHT CSS
@@ -12250,25 +12302,32 @@ header .benefits-section {
 .recently-bought {
   padding: 3rem 0;
 }
-.recently-bought img {
+.recently-bought .col img {
   margin-bottom: 1rem;
 }
-.recently-bought .title {
+.recently-bought .col .title {
   font-size: 14px;
   height: 100%;
   display: flex;
   align-items: center;
 }
-.recently-bought .price {
+.recently-bought .col .price {
   font-size: 14px;
   font-weight: 500;
 }
-.recently-bought .price .sale {
+.recently-bought .col .price .sale {
   color: #C1272D;
   margin-right: 1.5rem;
 }
-.recently-bought .price .org-price {
+.recently-bought .col .price .org-price {
   text-decoration: line-through;
+}
+.recently-bought .col:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
 }
 
 /* INSTA CSS
@@ -12277,13 +12336,26 @@ header .benefits-section {
   background-color: #f2f2f2;
   padding: 3rem 0;
 }
+.insta .col:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
 .insta .view-posts {
   background-color: #000;
+  border: 1px solid #000;
   color: #fff;
   font-size: 18px;
   text-align: center;
   text-decoration: none;
   padding: 10px 20px;
+  transition: background-color 0.5s ease;
+}
+.insta .view-posts:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /* NEWSLETTER CSS
